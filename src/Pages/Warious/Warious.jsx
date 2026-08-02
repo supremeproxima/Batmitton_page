@@ -8,18 +8,18 @@ import client3 from "../../assets/client3.svg"
 import client4 from "../../assets/client4.svg"
 import ScrollToTop from "../../Scroll_Arrow/ScrollToTop";
 import img1 from "../../assets/img1.svg"
-import img2 from "../../assets/img2.svg"
-import img3 from "../../assets/img3.svg"
+// import img2 from "../../assets/img2.svg"
+// import img3 from "../../assets/img3.svg"
 import img4 from "../../assets/img4.svg"
 import img5 from "../../assets/img5.svg"
-import img6 from "../../assets/img6.svg"
+// import img6 from "../../assets/img6.svg"
 import img7 from "../../assets/img7.svg"
 import img8 from "../../assets/img8.svg"
 import img9 from "../../assets/img9.svg"
 import Footer from "../Footer/Footer";
 export default function Warious() {
     const [isActive, setIsActive] = useState(false)
-    const images =[img1,img2,img3,img4,img5,img6,img7,img8,img9]
+    const images =[img1,img4,img5,img7,img8,img9]
     return (
         <div>
             <ScrollToTop />
@@ -72,8 +72,8 @@ export default function Warious() {
 
   {[
     {
-      name: "Vishnu",
-      role: "Head Coach & Founder",
+      name: " Coach Vishnu",
+      role: "Founder & Head Coach ",
       img: client1,
       desc: [
         "Our coaches are certified, experienced, and performance-driven professionals who have consistently produced results over the last 5 years in UAE ranking and competitive tournaments.",
@@ -81,8 +81,8 @@ export default function Warious() {
       ]
     },
     {
-      name: "Sanjay",
-      role: "Senior Coach",
+      name: " Coach Sanjay",
+      role: "Founder & Senior Coach",
       img: client2,
       desc: [
         "Our coaches are certified, experienced, and performance-driven professionals who have consistently produced results over the last 5 years in UAE ranking and competitive tournaments.",
@@ -91,7 +91,7 @@ export default function Warious() {
     },
     {
       name: "Praveen",
-      role: "Coach",
+      role: " Assistant Coach",
       img: client3,
       desc: [
         "Our coaches are certified, experienced, and performance-driven professionals who have consistently produced results over the last 5 years in UAE ranking and competitive tournaments.",
@@ -99,8 +99,8 @@ export default function Warious() {
       ]
     },
     {
-      name: "Dave",
-      role: "Coach",
+      name: " Coach Dev",
+      role: " Assistant Coach",
       img: client4,
       desc: [
         "Our coaches are certified, experienced, and performance-driven professionals who have consistently produced results over the last 5 years in UAE ranking and competitive tournaments.",
